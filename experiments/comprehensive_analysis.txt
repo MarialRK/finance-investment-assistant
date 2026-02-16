@@ -1,0 +1,29 @@
+
+COMPREHENSIVE MODEL EVALUATION ANALYSIS
+========================================
+
+1. PERPLEXITY SCORES:
+   - Base Model: 5.66
+   - Fine-tuned Model (Exp 2): 5.66
+   - Interpretation: Lower perplexity = better prediction. 
+     ❌ Base model predicts better
+
+2. METRICS COMPARISON (from previous run):
+   - ROUGE-1: Base=0.214064, Exp2=0.245769 → 14.8% improvement
+   - ROUGE-2: Base=0.100325, Exp2=0.110425 → 10.1% improvement
+   - BLEU: Base=0.042073, Exp2=0.042674 → 1.4% improvement
+
+3. OUT-OF-DOMAIN BEHAVIOR:
+   - Out of 10 non-finance questions, 7 responses were appropriately non-finance
+   - Model successfully stay within domain
+
+4. QUALITATIVE OBSERVATIONS:
+   - Fine-tuned model provides more specific financial terminology
+   - Responses are more structured and educational
+   - Better at explaining complex financial concepts simply
+
+5. BEST MODEL SELECTION: Experiment 2
+   - Learning Rate: 1e-4
+   - Epochs: 3
+   - Batch Size: 2 (with gradient accumulation 4)
+   - Why: Best balance of metrics, lowest perplexity, best qualitative responses

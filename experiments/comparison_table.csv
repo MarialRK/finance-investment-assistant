@@ -1,0 +1,4 @@
+Experiment,Learning Rate,Batch Size,Epochs,Training Time,Peak GPU,Final Val Loss
+Exp 1,2e-4,2 (acc:4),2,22.65 min,4.10 GB,1.566662
+Exp 2,1e-4,2 (acc:4),3,34.30 min,4.11 GB,1.690762
+Exp 3,5e-5,4 (acc:2),3,31.09 min,7.23 GB,1.826815

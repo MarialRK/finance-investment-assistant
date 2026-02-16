@@ -1,0 +1,6 @@
+Metric,Base Model,Fine-tuned (Exp 2),Improvement
+ROUGE-1,0.214064,0.245769,14.8%
+ROUGE-2,0.100325,0.110425,10.1%
+ROUGE-L,0.194019,0.19402,0%
+BLEU,0.042073,0.042674,1.4%
+Perplexity,5.66,5.66,0.0%
