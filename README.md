@@ -3,7 +3,7 @@
 **Machine Learning Techniques I — January 2026**  
 **Student: Daniel Marial Reng Kudum**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarialRK/finance-investment-assistant/blob/main/finance_assistant.ipynb)
+https://colab.research.google.com/drive/1YZSCRnrKx08SXFcvIIM9Tx8SQSKrZ_Ln?usp=sharing 
 
 ## 📋 Project Overview
 This project builds a domain-specific finance assistant by fine-tuning TinyLlama-1.1B on 3,000 Investopedia Q&A pairs.
